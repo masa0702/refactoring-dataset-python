@@ -52,7 +52,7 @@ def save_code_data(commit_line: str) -> None
                                 
 # GitHubコミットのURLとアクセストークンを指定
 commit_url = "https://github.com/realm/realm-java/commit/6cf596df183b3c3a38ed5dd9bb3b0100c6548ebb"
-access_token = "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"  # ここにGitHubのアクセストークンを設定
+access_token = ""  # ここにGitHubのアクセストークンを設定
 
 # コミットURLからリポジトリの情報を抽出
 match = re.search(r'^https://github\.com/([^/]+)/([^/]+)/commit/(\w+)$', commit_url)
