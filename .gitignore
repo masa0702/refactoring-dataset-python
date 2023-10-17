@@ -163,6 +163,7 @@ cython_debug/
 ## dir
 workbench/
 clone/
+test_space/
 
 ## extension
 *.json
